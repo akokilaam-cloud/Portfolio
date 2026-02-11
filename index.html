@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokila | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/profile.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio<span> Myself</span></div>
+            <!-- HAMBURGER -->
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="talk-btn">Let's Talk</a></li>
+
+            </ul>
+        </nav>
+        <hr style="background-color: rgb(1, 43, 43);border: none;height: 0.5px;">
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-card">
+
+            <!-- LEFT IMAGE -->
+            <div class="hero-image">
+                <img src="assests/images/profile/kokila.jpg" alt="Profile">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="hero-text">
+                <h1>Hello, I'm Kokila A </h1>
+                <h3 class="role">
+                    <span id="dynamic-role"></span>
+                </h3>
+
+                <p>
+                    Backend-focused full stack developer with strong experience in Python and Django.
+                    I build clean, structured, and scalable web applications with a deep focus on
+                    database design and real-world problem solving.
+                </p>
+
+                <p>
+                    My goal is to grow as a professional software developer, contribute to impactful
+                    projects, and become a reliable engineer in modern web development.
+                </p>
+
+                <p class="tech">
+                    <strong>Tech Stack:</strong> Python, Django, JavaScript, HTML, CSS, MySQL, Oracle, Bootstrab
+                </p>
+
+                <!-- BUTTONS -->
+                <div class="hero-buttons">
+                    <a href="mailto:akokila.am@gmail.com" class="btn outline"><i class="fas fa-envelope"></i>Email</a>
+                    <a href="https://github.com/akokilaam-cloud" class="btn outline"><i
+                            class="fab fa-github"></i>GitHub</a>
+                    <a href="https://www.linkedin.com/in/kokila-am/" class="btn outline"><i
+                            class="fab fa-linkedin"></i>LinkedIn</a>
+                    <a href="assests/resume/resume1.2.pdf" class="btn outline"><i class="fas fa-eye"></i> View
+                        Resume</a>
+                    <a href="assests/resume/resume1.2.pdf" download class="btn outline"><i
+                            class="fas fa-download"></i>Download Resume</a>
+                    <a href="#contact" class="btn outline"><i class="fas fa-phone"></i>Contact</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <!-- Frontend -->
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <p>HTML</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                <p>Bootstrap</p>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                <p>Django</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" />
+                <p>REST API</p>
+            </div>
+
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
+                <p>Pandas</p>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                <p>MySQL</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
+                <p>Oracle</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>CampusShare</h3>
+                <p>
+                    CampusShare is a web-based academic resource sharing platform designed for college students.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Python</span>
+                    <span>Django</span>
+
+                </div>
+
+                <a href="https://campusshare.onrender.com" class="view-btn" target="_blank">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Fashion Trends</h3>
+                <p> A modern and responsive website showcasing the latest fashion trends, built using HTML, CSS, and
+                    Bootstrap.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                </div>
+
+                <a href="https://akokilaam-cloud.github.io/fashion-style/" class="view-btn" target="_blank">View
+                    Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Flappy-Bird-Game</h3>
+                <p>
+                    This is a simple Flappy Bird game created using HTML, CSS, and JavaScript. The game uses the HTML5
+                    Canvas element for rendering graphics.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>HTML Audio API</span>
+                </div>
+
+                <a href="https://akokilaam-cloud.github.io/Flappy-Bird-Game/" class="view-btn" target="_blank">View
+                    Project</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h3>Mini-Calculator</h3>
+                <p>
+                    A simple and responsive Basic Calculator built using HTML, CSS, and JavaScript. This project
+                    performs basic arithmetic operations and adapts smoothly to mobile, tablet, and desktop screens.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://akokilaam-cloud.github.io/Mini-Calculator/" class="view-btn" target="_blank">View
+                    Project</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card">
+                <h3>Countdown Clock</h3>
+
+                <p>
+                    A simple and interactive Countdown Clock project built using HTML, CSS, and JavaScript.
+                    This project displays the remaining days, hours, minutes, and seconds until a specified future date.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://akokilaam-cloud.github.io/Count-Down-Clock/" class="view-btn" target="_blank">View
+                    Project</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="tools" class="tools-section">
+        <h2 class="section-title">Tools</h2>
+
+        <div class="tools-grid">
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                <p>VS Code</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" />
+                <p>PyCharm</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                <p>Git</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <p>GitHub</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" />
+                <p>Jupyter</p>
+            </div>
+
+            <div class="tool-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <p>Python IDLE</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certifications" class="cert-section">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="cert-grid">
+            <div class="cert-card">
+                <img src="assests/images/certifications/SLA.jpeg" alt="Frontend Certificate" onclick="openCert(this)">
+                <h3>SLA Institute</h3>
+                <p>Python Full Stack Web Development (6 Months – Offline)</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="assests/images/certifications/IBM javascript.jpg" alt="Python Certificate"
+                    onclick="openCert(this)">
+                <h3>IBMCE</h3>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="assests/images/certifications/udemy.jpg" alt="Frontend Certificate" onclick="openCert(this)">
+                <h3>Udemy</h3>
+                <p>Python and Django Fullstack Web Development</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="assests/images/certifications/UGC Act.jpeg" alt="Python Certificate" onclick="openCert(this)">
+                <h3>Periyar University</h3>
+                <p>Machine Learning & AI Models</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="assests/images/certifications/oracle.jpg" alt="Django Certificate" onclick="openCert(this)">
+                <h3>AnroIT Technologies</h3>
+                <p>Oracle Cloud Architecture</p>
+            </div>
+
+            <div class="cert-card">
+                <img src="assests/images/certifications/cambridge.jpg" alt="Pandas Certificate"
+                    onclick="openCert(this)">
+                <h3>Cambridge</h3>
+                <p>English Language Communication</p>
+            </div>
+            <!-- Hidden certificates -->
+            <div class="cert-card extra-cert">
+                <img src="assests/images/certifications/coding.jpg" onclick="openCert(this)">
+                <h3>Smart Internz</h3>
+                <p>Fundamentals of Coding & Cloud</p>
+            </div>
+
+            <div class="cert-card extra-cert">
+                <img src="assests/images/certifications/infosys.jpg" onclick="openCert(this)">
+                <h3>Infosys Springboard</h3>
+                <p>Cyber Security</p>
+            </div>
+
+        </div>
+        <!-- BUTTON -->
+        <div class="show-btn-box">
+            <button id="toggleCertBtn">Show More</button>
+        </div>
+
+    </section>
+
+    <!-- MODAL -->
+    <div class="cert-modal" id="certModal">
+        <img class="modal-img" id="modalImg">
+    </div>
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3> Preferred Work Locations</h3>
+                <p>Chennai</p>
+                <p>Bangalore</p>
+                <p>Coimbutor</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Under Graduate</h3>
+                <p>Periyar University</p>
+                <p>BSc Computer Science</p>
+            </div>
+
+
+
+            <div class="about-card">
+                <h3> Languages</h3>
+                <p>English</p>
+                <p>Tamil</p>
+            </div>
+
+            <div class="about-card">
+                <h3> Mobile Number</h3>
+                <p>+91 8098581242</p>
+            </div>
+
+            <div class="about-card">
+                <h3> Area of Interest</h3>
+                <p>Frontend</p>
+                <p>Backend Development</p>
+                <p>Full Stack & Databases</p>
+                <p>Web Applications</p>
+            </div>
+
+            <div class="about-card">
+                <h3> Soft Skills</h3>
+                <p>Time Management</p>
+                <p>Problem Solving</p>
+                <p>Adaptable to New Technologies</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+
+            <!-- LEFT SIDE -->
+            <div class="contact-left">
+
+                <h2 class="contact-heading">Let’s Build Something Amazing Together</h2>
+
+                <p class="contact-description">
+                    I’m a passionate Full Stack Developer specializing in building
+                    modern, scalable, and user-focused web applications.
+                    Whether you have a project idea, job opportunity, or collaboration in mind —
+                    I’d love to hear from you.
+                </p>
+
+                <div class="contact-info-box">
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:kokila@email.com">akokila.am@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+911234567890">+91 80985 81242</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon-circle">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/8098581242" target="_blank">
+                                Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mdalazyd" method="POST">
+
+                    <div class="form-group">
+                        <input type="text" name="name" required>
+                        <label>Your Name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="email" required>
+                        <label>Your Email</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="message" rows="5" required></textarea>
+                        <label>Your Message</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <!-- LEFT -->
+            <div class="footer-left">
+                © 2025 <span class="gold">Kokila</span> · Dec 31, 2025
+            </div>
+
+            <!-- CENTER -->
+            <div class="footer-center">
+                <span class="status-dot"></span>
+                <span>Available</span>
+                <span class="divider">•</span>
+                <span>Focused on Python</span>
+                <span class="divider">•</span>
+                <span>Open to Full-Time · Internship · Remote</span>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="footer-right">
+                <div class="social-icons">
+                    <a href="https://github.com/akokilaam-cloud" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kokila-am/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:akokila.am@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <span class="divider">•</span>
+                <span id="time"></span>
+                <span class="divider">•</span>
+                <span>Updated Today</span>
+                <span class="divider">•</span>
+                <a href="assests/resume/resume1.2.pdf" download class="gold">Download Resume</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+
+</html>
